@@ -34,6 +34,7 @@ namespace CpuAndRamMonitor
             circularProgressBarRam.Value = (int)fram;
             circularProgressBarCPU.Value = (int)fcpu;
             circularProgressBarCPU.SubscriptText = string.Format("{0:0.0}%", fcpu);
+            /*jjk*/
             
 
         }
